@@ -5,9 +5,11 @@ class Atm:
 
     def cashWithDrowl(self):
         print("Cash WithDrowl")
+        print(self.cardNo,self.pinNo)
 
     def balanceEnquiry(self):
         print("Balance Enquiry")
+        print(self.cardNo,self.pinNo)
 
 user1 = Atm(100,200)
 user2 = Atm(300,400)
